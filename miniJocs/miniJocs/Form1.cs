@@ -25,5 +25,10 @@ namespace miniJocs
             fFitxerText.WindowState = FormWindowState.Normal;
             fFitxerText.Show();*/
         }
+
+        private void finestresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.ArrangeIcons);
+        }
     }
 }

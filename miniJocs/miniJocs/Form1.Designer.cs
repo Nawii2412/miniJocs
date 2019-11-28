@@ -32,16 +32,19 @@
             this.jocsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.penjatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pedraPaperTisoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.finestresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.jocsToolStripMenuItem});
+            this.jocsToolStripMenuItem,
+            this.finestresToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1067, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -51,30 +54,38 @@
             this.penjatToolStripMenuItem,
             this.pedraPaperTisoraToolStripMenuItem});
             this.jocsToolStripMenuItem.Name = "jocsToolStripMenuItem";
-            this.jocsToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.jocsToolStripMenuItem.Size = new System.Drawing.Size(50, 24);
             this.jocsToolStripMenuItem.Text = "Jocs";
             // 
             // penjatToolStripMenuItem
             // 
             this.penjatToolStripMenuItem.Name = "penjatToolStripMenuItem";
-            this.penjatToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.penjatToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.penjatToolStripMenuItem.Text = "Penjat";
             this.penjatToolStripMenuItem.Click += new System.EventHandler(this.penjatToolStripMenuItem_Click);
             // 
             // pedraPaperTisoraToolStripMenuItem
             // 
             this.pedraPaperTisoraToolStripMenuItem.Name = "pedraPaperTisoraToolStripMenuItem";
-            this.pedraPaperTisoraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pedraPaperTisoraToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.pedraPaperTisoraToolStripMenuItem.Text = "Pedra-Paper-Tisora";
+            // 
+            // finestresToolStripMenuItem
+            // 
+            this.finestresToolStripMenuItem.Name = "finestresToolStripMenuItem";
+            this.finestresToolStripMenuItem.Size = new System.Drawing.Size(80, 24);
+            this.finestresToolStripMenuItem.Text = "Finestres";
+            this.finestresToolStripMenuItem.Click += new System.EventHandler(this.finestresToolStripMenuItem_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "MiniJocs";
             this.menuStrip1.ResumeLayout(false);
@@ -90,6 +101,7 @@
         private System.Windows.Forms.ToolStripMenuItem jocsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem penjatToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pedraPaperTisoraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem finestresToolStripMenuItem;
     }
 }
 
