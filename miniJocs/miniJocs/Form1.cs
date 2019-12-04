@@ -34,9 +34,28 @@ namespace miniJocs
 
         private void pedraPaperTisoraToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmPedraPaperTisores = new PedraPaperTisores();
-            frmPedraPaperTisores.MdiParent = this;
+            if (!(ja_està_obert("frmPedraPaperTisores")))
+            {
+                frmPedraPaperTisores = new PedraPaperTisores();
+                frmPedraPaperTisores.MdiParent = this;
+                //frmPedraPaperTisores.Show();
+            }
+            frmPedraPaperTisores.WindowState = FormWindowState.Normal;
             frmPedraPaperTisores.Show();
+        }
+
+        Boolean ja_està_obert(String xnom_frm)
+        {
+
+            int x1 = 0;
+            Boolean xb = false;
+
+            while ((x1 < this.MdiChildren.Length) && (!(xb)))
+            {
+                xb = (this.MdiChildren[x1].Name == xnom_frm);
+                x1++;
+            }
+            return (xb);
         }
     }
 }
