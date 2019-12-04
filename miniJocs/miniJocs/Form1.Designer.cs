@@ -69,6 +69,7 @@
             this.pedraPaperTisoraToolStripMenuItem.Name = "pedraPaperTisoraToolStripMenuItem";
             this.pedraPaperTisoraToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.pedraPaperTisoraToolStripMenuItem.Text = "Pedra-Paper-Tisora";
+            this.pedraPaperTisoraToolStripMenuItem.Click += new System.EventHandler(this.pedraPaperTisoraToolStripMenuItem_Click);
             // 
             // finestresToolStripMenuItem
             // 
@@ -85,7 +86,7 @@
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "MiniJocs";
             this.menuStrip1.ResumeLayout(false);
