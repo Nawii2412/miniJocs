@@ -12,6 +12,7 @@ namespace miniJocs
 {
     public partial class Form1 : Form
     {
+        PedraPaperTisores frmPedraPaperTisores;
         public Form1()
         {
             InitializeComponent();
@@ -29,6 +30,13 @@ namespace miniJocs
         private void finestresToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.LayoutMdi(MdiLayout.ArrangeIcons);
+        }
+
+        private void pedraPaperTisoraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPedraPaperTisores = new PedraPaperTisores();
+            frmPedraPaperTisores.MdiParent = this;
+            frmPedraPaperTisores.Show();
         }
     }
 }
