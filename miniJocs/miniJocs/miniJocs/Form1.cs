@@ -13,6 +13,7 @@ namespace miniJocs
     public partial class Form1 : Form
     {
         PedraPaperTisores frmPedraPaperTisores;
+        FrmPenjat xPenjat;
         public Form1()
         {
             InitializeComponent();
@@ -20,11 +21,9 @@ namespace miniJocs
 
         private void penjatToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            /*fFitxerText = new FrmFitxerText();
-                fFitxerText.MdiParent = this;           // --- hem fet que FRM_MAIN sigui MdiContainer i posem aquest Form com a fill seu ---
-            }
-            fFitxerText.WindowState = FormWindowState.Normal;
-            fFitxerText.Show();*/
+            xPenjat = new FrmPenjat();
+            xPenjat.MdiParent = this;
+            xPenjat.Show();
         }
 
         private void finestresToolStripMenuItem_Click(object sender, EventArgs e)
