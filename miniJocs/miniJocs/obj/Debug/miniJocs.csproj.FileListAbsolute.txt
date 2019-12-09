@@ -8,3 +8,14 @@ C:\Users\jordi\dam2m5uf2\clon_minijocs\miniJocs\miniJocs\obj\Debug\miniJocs.cspr
 C:\Users\jordi\dam2m5uf2\clon_minijocs\miniJocs\miniJocs\obj\Debug\miniJocs.exe
 C:\Users\jordi\dam2m5uf2\clon_minijocs\miniJocs\miniJocs\obj\Debug\miniJocs.pdb
 C:\Users\jordi\dam2m5uf2\clon_minijocs\miniJocs\miniJocs\obj\Debug\miniJocs.PedraPaperTisores.resources
+C:\Users\usuario\Desktop\miniJocs\miniJocs\bin\Debug\miniJocs.exe.config
+C:\Users\usuario\Desktop\miniJocs\miniJocs\bin\Debug\miniJocs.exe
+C:\Users\usuario\Desktop\miniJocs\miniJocs\bin\Debug\miniJocs.pdb
+C:\Users\usuario\Desktop\miniJocs\miniJocs\obj\Debug\miniJocs.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\miniJocs\miniJocs\obj\Debug\miniJocs.Form1.resources
+C:\Users\usuario\Desktop\miniJocs\miniJocs\obj\Debug\miniJocs.FrmPenjat.resources
+C:\Users\usuario\Desktop\miniJocs\miniJocs\obj\Debug\miniJocs.PedraPaperTisores.resources
+C:\Users\usuario\Desktop\miniJocs\miniJocs\obj\Debug\miniJocs.Properties.Resources.resources
+C:\Users\usuario\Desktop\miniJocs\miniJocs\obj\Debug\miniJocs.csproj.GenerateResource.cache
+C:\Users\usuario\Desktop\miniJocs\miniJocs\obj\Debug\miniJocs.exe
+C:\Users\usuario\Desktop\miniJocs\miniJocs\obj\Debug\miniJocs.pdb

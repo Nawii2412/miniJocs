@@ -13,6 +13,7 @@ namespace miniJocs
     public partial class Form1 : Form
     {
         PedraPaperTisores frmPedraPaperTisores;
+        FrmPenjat xPenjat;
         public Form1()
         {
             InitializeComponent();
@@ -20,11 +21,9 @@ namespace miniJocs
 
         private void penjatToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            /*fFitxerText = new FrmFitxerText();
-                fFitxerText.MdiParent = this;           // --- hem fet que FRM_MAIN sigui MdiContainer i posem aquest Form com a fill seu ---
-            }
-            fFitxerText.WindowState = FormWindowState.Normal;
-            fFitxerText.Show();*/
+            xPenjat = new FrmPenjat();
+            xPenjat.MdiParent = this;
+            xPenjat.Show();
         }
 
         private void finestresToolStripMenuItem_Click(object sender, EventArgs e)
@@ -34,28 +33,9 @@ namespace miniJocs
 
         private void pedraPaperTisoraToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (!(ja_està_obert("frmPedraPaperTisores")))
-            {
-                frmPedraPaperTisores = new PedraPaperTisores();
-                frmPedraPaperTisores.MdiParent = this;
-                //frmPedraPaperTisores.Show();
-            }
-            frmPedraPaperTisores.WindowState = FormWindowState.Normal;
+            frmPedraPaperTisores = new PedraPaperTisores();
+            frmPedraPaperTisores.MdiParent = this;
             frmPedraPaperTisores.Show();
-        }
-
-        Boolean ja_està_obert(String xnom_frm)
-        {
-
-            int x1 = 0;
-            Boolean xb = false;
-
-            while ((x1 < this.MdiChildren.Length) && (!(xb)))
-            {
-                xb = (this.MdiChildren[x1].Name == xnom_frm);
-                x1++;
-            }
-            return (xb);
         }
     }
 }

@@ -34,11 +34,11 @@ namespace miniJocs
             pbOrdinador.Image = llimatges[nAleatori];
             if(nAleatori == 1)
             {
-                MessageBox.Show("Has perdut", "Fi del joc", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Has perdut", "Fi del joc", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
             else if(nAleatori == 2)
             {
-                MessageBox.Show("Has guanyat!", "Fi del joc", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Has guanyat!", "Fi del joc", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
             else
             {
@@ -59,11 +59,11 @@ namespace miniJocs
             }
             else if (random == 2)
             {
-                MessageBox.Show("Has perdut", "Fi del joc", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Has perdut", "Fi del joc", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
             else
             {
-                MessageBox.Show("Has guanyat!", "Fi del joc", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Has guanyat!", "Fi del joc", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
         }
 
@@ -76,7 +76,7 @@ namespace miniJocs
             pbOrdinador.Image = llimatges[random];
             if (random == 1)
             {
-                MessageBox.Show("Has guanyat!", "Fi del joc", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Has guanyat!", "Fi del joc", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
             else if (random == 2)
             {
@@ -84,7 +84,7 @@ namespace miniJocs
             }
             else
             {
-                MessageBox.Show("Has perdut", "Fi del joc", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Has perdut", "Fi del joc", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
 

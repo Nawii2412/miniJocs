@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="3EnRatlla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3EnRatlla.Designer.cs">
+      <DependentUpon>3EnRatlla.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmPenjat.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmPenjat.Designer.cs">
-      <DependentUpon>FrmPenjat.cs</DependentUpon>
     </Compile>
     <Compile Include="PedraPaperTisores.cs">
       <SubType>Form</SubType>
@@ -66,11 +66,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="3EnRatlla.resx">
+      <DependentUpon>3EnRatlla.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmPenjat.resx">
-      <DependentUpon>FrmPenjat.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PedraPaperTisores.resx">
       <DependentUpon>PedraPaperTisores.cs</DependentUpon>
@@ -108,31 +108,10 @@
     <None Include="piedra.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Penjat1.JPG" />
+    <None Include="o.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Penjat2.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Penjat3.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Penjat4.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Penjat5.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Penjat6.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Penjat7.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Penjat8.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Penjat8.png" />
+    <None Include="x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
